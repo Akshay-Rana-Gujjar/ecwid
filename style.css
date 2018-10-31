@@ -1,0 +1,23 @@
+.nav-background{
+    background-color: #61CEE5;
+}
+.no-border{
+    border-radius: 0 !important;
+}
+.promo-text{
+    color:#00558C;
+}
+
+.featured-product{
+    background-color: #9DDBE8;
+}
+.featured-product > img{
+    width: 50%;
+}
+.btn{
+    border-radius: 0 !important;
+}
+.btn-outline-light:hover{
+    background: white;
+    color: #9DDBE8;
+}
