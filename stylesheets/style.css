@@ -111,6 +111,19 @@ ul#categories_container{
 .category:hover{
   color: #9DDBE8 !important;
 }
+.product-heading{
+  font-size: 5vh;  
+}
+
+.category-heading{
+  font-size: 3vh;
+  
+}
+.m-divider{
+  height: 0;
+  border-bottom: 1px solid gray;
+  width: 20%;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
