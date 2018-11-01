@@ -37,6 +37,8 @@ h1{
   background-size: cover;
 }
 
+
+
 .color-blue{
   color:#ABCFDC;
 }
@@ -90,6 +92,24 @@ footer ul {
 }
 .height-250{
   height:250px
+}
+
+/* ========== SALE PAGE ============ */
+.hero-container{
+
+}
+.divider-black{
+  border-top-color: gray;
+}
+ul#categories_container{
+  list-style-type: none;
+  color: rgba(0, 0, 0, 0.753);
+}
+[role="button"]{
+  cursor: pointer;
+}
+.category:hover{
+  color: #9DDBE8 !important;
 }
 
 /* // Extra small devices (portrait phones, less than 576px) */
