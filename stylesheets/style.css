@@ -124,6 +124,35 @@ ul#categories_container{
   border-bottom: 1px solid gray;
   width: 20%;
 }
+.product-price{
+  
+}
+/* ========== PRODUCT PAGE ===========   */
+.breadcrumb-item + .breadcrumb-item::before 
+{
+    content: ' \203A' !important;
+}
+.rating{
+  font-size: 1.5rem;
+}
+
+.accordion-bg{
+  background: #42BED8!important;
+}
+
+.accordion-color{
+  color:  #42BED8!important;
+}
+.circle{
+  border-radius: 100%;
+}
+.no-border-radius{
+  border-radius: 0!important;
+}
+
+.input-border-blue{
+  border-color: #72D3E8 !important;
+}
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
