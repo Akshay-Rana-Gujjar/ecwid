@@ -94,6 +94,17 @@ footer ul {
   height:250px
 }
 
+.modal-input,.modal-input:focus{
+  background: none;
+  border-color: transparent;
+  border-bottom-color: white;
+  color: white;
+  outline:none;
+}
+.modal-input::-webkit-input-placeholder{
+  color:rgba(255, 255, 255, 0.548);
+}
+
 /* ========== SALE PAGE ============ */
 .hero-container{
 
