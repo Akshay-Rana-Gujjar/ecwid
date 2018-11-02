@@ -167,6 +167,10 @@ ul#categories_container{
   
 }
 
+input.small-placeholder::-webkit-input-placeholder{
+  font-size: small;
+}
+
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
