@@ -153,6 +153,20 @@ ul#categories_container{
 .input-border-blue{
   border-color: #72D3E8 !important;
 }
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+  background-color: #42bed8 !important;
+}
+
+/* ============== CART PAGE ============= */
+.cart-quantity-button{
+  border-color: #42bfd862 !important;
+}
+.cart-quantity-button:hover{
+  background-color: #42bed8 !important;
+  outline-color: #42bed8 !important;
+  
+}
+
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
