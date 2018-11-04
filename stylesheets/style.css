@@ -4,6 +4,9 @@
 .no-border{
   border-radius: 0 !important;
 }
+.no-border-color{
+  border: none;
+}
 h1{
   color:#00558D;
 }
@@ -37,6 +40,12 @@ h1{
   background-size: cover;
 }
 
+.slick-next:before{
+  content: url('../images/arrow-right.png')
+}
+.slick-prev:before{
+  content: url('../images/arrow-left.png')
+}
 
 
 .color-blue{
@@ -185,19 +194,19 @@ input.small-placeholder::-webkit-input-placeholder{
 
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-  
+  .card-columns {column-count: 4;}
 
  }
 
 /* // Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) { 
-  
+  .card-columns {column-count: 4;}
 
  }
 
 /* // Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-  
+  .card-columns {column-count: 4;}
 
  }
 
@@ -212,6 +221,7 @@ input.small-placeholder::-webkit-input-placeholder{
     position: relative;
     top: -72px;
   }
+  .card-columns {column-count: 4;}
 
  }
 
@@ -230,5 +240,5 @@ input.small-placeholder::-webkit-input-placeholder{
     position: relative;
     top: -85px;
   }
-
+  .card-columns {column-count: 5;}
  }
